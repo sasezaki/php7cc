@@ -129,6 +129,10 @@ class ContainerBuilder
             'class' => '\\Sstalle\\php7cc\\NodeVisitor\\SetcookieEmptyNameVisitor',
             'dependencies' => array('nodeAnalyzer.functionAnalyzer'),
         ),
+        'visitor.createFunction' => array(
+            'class' => '\\Sstalle\\php7cc\\NodeVisitor\\CreateFunctionVisitor',
+            'dependencies' => array('nodeAnalyzer.functionAnalyzer'),
+        ),
     );
 
     /**
