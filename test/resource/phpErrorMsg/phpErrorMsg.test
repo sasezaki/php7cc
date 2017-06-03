@@ -1,0 +1,6 @@
+$php_errormsg defined
+-----
+<?php $php_errormsg;
+-----
+Deprecated $php_errormsg variable is created.
+

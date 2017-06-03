@@ -129,13 +129,18 @@ class ContainerBuilder
             'class' => '\\Sstalle\\php7cc\\NodeVisitor\\SetcookieEmptyNameVisitor',
             'dependencies' => array('nodeAnalyzer.functionAnalyzer'),
         ),
+        // 7.2 deprecations
+        'visitor.autoload' => array(
+            'class' => '\\Sstalle\\php7cc\\NodeVisitor\\AutoloadVisitor',
+        ),
+        'visitor.phpErrorMsg' => array(
+            'class' => '\\Sstalle\\php7cc\\NodeVisitor\\PhpErrorMsgVisitor',
+        ),
         'visitor.createFunction' => array(
             'class' => '\\Sstalle\\php7cc\\NodeVisitor\\CreateFunctionVisitor',
             'dependencies' => array('nodeAnalyzer.functionAnalyzer'),
         ),
-        'visitor.autoload' => array(
-            'class' => '\\Sstalle\\php7cc\\NodeVisitor\\AutoloadVisitor',
-        ),
+
     );
 
     /**
