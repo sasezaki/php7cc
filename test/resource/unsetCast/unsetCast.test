@@ -1,0 +1,5 @@
+(unset) cast called
+-----
+<?php $foo = 1; $bar = (unset) $foo;
+-----
+Deprecated (unset) cast called.
