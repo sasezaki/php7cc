@@ -1,0 +1,8 @@
+__autoload defined
+-----
+<?php function __autoload($classname) {}
+-----
+Deprecated __autoload() defined.
+-----
+<?php // not defined.
+-----

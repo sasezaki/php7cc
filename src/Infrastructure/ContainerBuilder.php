@@ -133,6 +133,9 @@ class ContainerBuilder
             'class' => '\\Sstalle\\php7cc\\NodeVisitor\\CreateFunctionVisitor',
             'dependencies' => array('nodeAnalyzer.functionAnalyzer'),
         ),
+        'visitor.autoload' => array(
+            'class' => '\\Sstalle\\php7cc\\NodeVisitor\\AutoloadVisitor',
+        ),
     );
 
     /**

@@ -1,7 +1,5 @@
 create_function call
 -----
-<?php
-create_function('$a,$b', 'return "ln($a) + ln($b) = " . log($a * $b);');
+<?php create_function('$a,$b', 'return "ln($a) + ln($b) = " . log($a * $b);');
 -----
-Deprecated create_function called.
------
+Deprecated create_function() called.
