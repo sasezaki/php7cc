@@ -1,0 +1,5 @@
+gmp_random call
+-----
+<?php gmp_random();
+-----
+Deprecated gmp_random() called.

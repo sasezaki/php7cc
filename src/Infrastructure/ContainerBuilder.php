@@ -147,9 +147,10 @@ class ContainerBuilder
             'class' => '\\Sstalle\\php7cc\\NodeVisitor\\ParseStrWithoutSecondArgumentVisitor',
             'dependencies' => array('nodeAnalyzer.functionAnalyzer'),
         ),
-//        'visitor.gmpRandom' => array(
-//            'class' => '\\Sstalle\\php7cc\\NodeVisitor\\GmpRandomVisitor',
-//        ),
+        'visitor.gmpRandom' => array(
+            'class' => '\\Sstalle\\php7cc\\NodeVisitor\\GmpRandomVisitor',
+            'dependencies' => array('nodeAnalyzer.functionAnalyzer'),
+        ),
 //        'visitor.each' => array(
 //            'class' => '\\Sstalle\\php7cc\\NodeVisitor\\EachVisitor',
 //        ),
