@@ -155,9 +155,10 @@ class ContainerBuilder
             'class' => '\\Sstalle\\php7cc\\NodeVisitor\\EachVisitor',
             'dependencies' => array('nodeAnalyzer.functionAnalyzer'),
         ),
-//        'visitor.assertWithStringArgument' => array(
-//            'class' => '\\Sstalle\\php7cc\\NodeVisitor\\AssertWithStringArgumentVisitor',
-//        ),
+        'visitor.assertWithStringArgument' => array(
+            'class' => '\\Sstalle\\php7cc\\NodeVisitor\\AssertWithStringArgumentVisitor',
+            'dependencies' => array('nodeAnalyzer.functionAnalyzer'),
+        ),
 //        'visitor.errorContextArgumentOfErrorHandler' => array(
 //            'class' => '\\Sstalle\\php7cc\\NodeVisitor\\ErrorContextArgumentOfErrorHandlerVisitor',
 //        ),

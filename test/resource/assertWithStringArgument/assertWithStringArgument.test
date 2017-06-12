@@ -1,0 +1,5 @@
+assert() with string argument
+-----
+<?php assert("string");
+-----
+Deprecated assert() with string argument called.
