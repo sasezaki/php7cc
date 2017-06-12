@@ -143,6 +143,22 @@ class ContainerBuilder
         'visitor.unsetCast' => array(
             'class' => '\\Sstalle\\php7cc\\NodeVisitor\\UnsetCastVisitor',
         ),
+        'visitor.parseStrWithoutSecondArgument' => array(
+            'class' => '\\Sstalle\\php7cc\\NodeVisitor\\ParseStrWithoutSecondArgumentVisitor',
+            'dependencies' => array('nodeAnalyzer.functionAnalyzer'),
+        ),
+//        'visitor.gmpRandom' => array(
+//            'class' => '\\Sstalle\\php7cc\\NodeVisitor\\GmpRandomVisitor',
+//        ),
+//        'visitor.each' => array(
+//            'class' => '\\Sstalle\\php7cc\\NodeVisitor\\EachVisitor',
+//        ),
+//        'visitor.assertWithStringArgument' => array(
+//            'class' => '\\Sstalle\\php7cc\\NodeVisitor\\AssertWithStringArgumentVisitor',
+//        ),
+//        'visitor.errorContextArgumentOfErrorHandler' => array(
+//            'class' => '\\Sstalle\\php7cc\\NodeVisitor\\ErrorContextArgumentOfErrorHandlerVisitor',
+//        ),
     );
 
     /**

@@ -1,0 +1,5 @@
+Called parse_str() without second argument
+-----
+<?php parse_str('foo=bar');
+-----
+Deprecated parse_str() called without second argument.
