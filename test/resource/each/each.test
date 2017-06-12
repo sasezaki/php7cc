@@ -1,0 +1,7 @@
+each call
+-----
+<?php
+$array = [1,2,3];
+while (list($key, $val) = each($array)) {}
+-----
+Deprecated each() called.
