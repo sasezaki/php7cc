@@ -1,0 +1,11 @@
+$errcontext argument of error handler
+-----
+<?php
+set_error_handler(function($errno, $errstr, $errfile, $errline){});
+-----
+-----
+<?php
+set_error_handler(function($errno, $errstr, $errfile, $errline, $errcontext){});
+-----
+Fifth parameter $errcontext became deprecated.
+-----
